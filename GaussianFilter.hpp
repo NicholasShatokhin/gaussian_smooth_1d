@@ -1,7 +1,17 @@
+/*
+ * Gaussian 1-d smoothing filter
+ *
+ * @copyright © 2020 Mykola Shatokhin
+ * SPDX-License-Identifier: MIT
+ */
+
+#pragma once
 #include <cmath>
 #include <vector>
 
+#ifndef M_PI
 #define M_PI           3.14159265358979323846f  /* pi */
+#endif
 
 class GaussianFilter
 {
